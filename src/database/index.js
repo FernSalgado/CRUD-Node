@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 export default mongoose
   .connect(
-    'mongodb+srv://<username>:<password>@<cluster>.mongodb.net/<database>?authSource=admin',
+    'string-banco',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
